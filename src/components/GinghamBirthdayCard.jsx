@@ -158,13 +158,13 @@ export default function GinghamBirthdayCard() {
       {/* Section Header */}
       <div style={{ textAlign: 'center', marginBottom: '18px' }}>
         <p style={{ fontSize: '0.75rem', letterSpacing: '1.5px', color: '#ff4d6d', fontWeight: '600', marginBottom: '4px' }}>
-          — SPECIAL BIRTHDAY CARD —
+          — KARTU ULANG TAHUN SPESIAL —
         </p>
         <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.5rem', marginBottom: '4px' }}>
-          Interactive Gift Card 🎁
+          Kartu Ucapan Interaktif 🎁
         </h3>
         <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>
-          Tap the card to open Lucyna's birthday surprise ✨
+          Ketuk kartu untuk membuka kejutan ulang tahun Bebe ✨
         </p>
       </div>
 
@@ -224,26 +224,26 @@ export default function GinghamBirthdayCard() {
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
                 <Sparkles size={18} color="#b4001e" />
                 <span style={{ fontSize: '0.82rem', fontWeight: '700', letterSpacing: '1px', color: '#b4001e' }}>
-                  A SPECIAL MESSAGE FOR LUCYNA MAJEWSKA
+                  PESAN SPESIAL UNTUK BEBE 💗
                 </span>
               </div>
 
               <h4 style={{ fontFamily: 'var(--font-display)', fontSize: '1.25rem', color: '#73000b', marginBottom: '8px' }}>
-                Happy Birthday, Moje Kochanie! 🎂✨
+                Selamat Ulang Tahun Ke-25, Bebe! 🎂✨
               </h4>
 
               <p style={{ fontSize: '0.85rem', lineHeight: '1.55', color: '#590008', fontWeight: '500' }}>
-                You bring so much light, elegance, and warmth into my world. Wishing you a year filled with boundless happiness, radiant health, and the fulfillment of your greatest dreams! 💕
+                Kamu selalu membawa kehangatan, tawa, dan kebahagiaan di setiap hariku. Semoga di usiamu yang ke-25 ini, kamu selalu diberikan kesehatan, kebahagiaan tak terhingga, dan semua impianmu tercapai! 💕
               </p>
             </div>
 
             {/* Inner Footer */}
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', position: 'relative', zIndex: 2 }}>
               <span style={{ fontSize: '0.78rem', fontStyle: 'italic', color: '#b4001e', fontWeight: '600' }}>
-                With all my love 🤍
+                Dengan sepenuh cinta 🤍
               </span>
               <div style={{ display: 'flex', alignItems: 'center', gap: '4px', fontSize: '0.75rem', color: '#73000b', fontWeight: '700' }}>
-                <span>Tap to close</span>
+                <span>Ketuk untuk menutup</span>
                 <ChevronRight size={14} />
               </div>
             </div>
@@ -313,7 +313,7 @@ export default function GinghamBirthdayCard() {
                   padding: '0 4px',
                 }}
               >
-                This special gift belongs to you!
+                Kado spesial ini untukmu!
               </p>
 
               {/* Center Circular Photo Cutout with Glow Frame */}
@@ -331,8 +331,8 @@ export default function GinghamBirthdayCard() {
                 }}
               >
                 <img
-                  src="/lucyna 1.jpeg"
-                  alt="Lucyna Majewska"
+                  src="/bebe 1.jpeg"
+                  alt="Bebe"
                   style={{
                     width: '100%',
                     height: '100%',
@@ -371,7 +371,7 @@ export default function GinghamBirthdayCard() {
                   letterSpacing: '0.5px',
                 }}
               >
-                Tap to open 💌
+                Ketuk untuk membuka 💌
               </div>
             </div>
 
@@ -446,9 +446,9 @@ export default function GinghamBirthdayCard() {
                       color: '#900014',
                     }}
                   >
-                    Happy Birthday<br />
-                    My Favorite<br />
-                    Person
+                    Happy 25th<br />
+                    Birthday<br />
+                    Sayangku
                   </p>
                   <div style={{ marginTop: '3px' }}>
                     <Heart size={14} fill="#a80517" color="#a80517" style={{ filter: 'drop-shadow(0 1px 2px rgba(0,0,0,0.2))' }} />

@@ -17,15 +17,21 @@ function LetterTypewriter() {
   const [displayedLines, setDisplayedLines] = useState([]);
 
   const letterLines = [
-    { text: "Happy Birthday, Lucyna ❤️", style: "greeting" },
+    { text: "My dearest bebe💗", style: "greeting" },
     { text: "", style: "spacer" },
-    { text: "On this special day, I want to wish you good health, genuine happiness, peace of mind, and the fulfilment of every dream and ambition you pursue.", style: "body" },
+    { text: "Selamat ulang tahun, sayangku yang paling aku rindukan 🎂", style: "body" },
     { text: "", style: "spacer" },
-    { text: "Thank you for being such a wonderful and meaningful part of my life. Your kindness, your laughter, and all the little moments we share mean more to me than I could ever put into words. I may not be able to give you the world right now, but I hope these heartfelt words bring a little smile to your face today.", style: "body" },
+    { text: "Aku tahu jarak memisahkan kita hari ini, tapi percayalah — hatiku selalu ada untukmu dan di sisimu setiap detik, setiap nafas, setiap hari. ❄️", style: "body" },
     { text: "", style: "spacer" },
-    { text: "May our journey continue to grow with warmth, care, and inspiration, always encouraging and supporting each other to become the best versions of ourselves.", style: "body" },
+    { text: "Aku ingin kamu tahu bahwa kamu adalah alasan aku tersenyum di pagi hari, dan alasan aku bertahan di malam-malam yang sepi. ✨", style: "body" },
     { text: "", style: "spacer" },
-    { text: "Happy birthday, my dearest. I hope the year ahead brings you everything beautiful that you deserve.", style: "ps" },
+    { text: "Meskipun kita di pisahkan oleh jarak ribuan kilometer, cintaku padamu tidak pernah berkurang sedikitpun, justru semakin hari semakin dalam. 🤍", style: "body" },
+    { text: "", style: "spacer" },
+    { text: "Suatu hari nanti, kita tidak perlu lagi menghitung hari untuk bertemu. Suatu hari nanti, aku akan memelukmu dan tidak akan pernah melepaskan lagi. 🫂", style: "body" },
+    { text: "", style: "spacer" },
+    { text: "Sampai hari itu tiba, aku akan terus mencintaimu dari sini — dengan sepenuh hati, tanpa syarat, dan tanpa batas.💗", style: "body" },
+    { text: "", style: "spacer" },
+    { text: "Selamat ulang tahun, sayangku, cintaku. semoga semua mimpimu menjadi kenyataan. 🌙✨", style: "ps" },
   ];
 
   // Trigger typewriter when scrolled into view
@@ -124,10 +130,10 @@ function LetterTypewriter() {
       {/* Section Header */}
       <div style={{ textAlign: 'center', marginBottom: '20px' }}>
         <p style={{ fontSize: '0.75rem', letterSpacing: '1.5px', color: '#38bdf8', fontWeight: '600', marginBottom: '4px' }}>
-          — FROM MY HEART —
+          — DARI LUBUK HATIKU —
         </p>
         <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.55rem', marginBottom: '4px' }}>
-          A Letter For You
+          Surat Untukmu
         </h3>
         <div
           style={{
@@ -144,7 +150,7 @@ function LetterTypewriter() {
           }}
         >
           <span>💙</span>
-          <span>A Special Note</span>
+          <span>Catatan Spesial</span>
           <span>💙</span>
         </div>
       </div>
@@ -186,7 +192,7 @@ function LetterTypewriter() {
             }}
           >
             <span style={{ color: '#60a5fa', fontSize: '0.85rem' }}>With all my love,</span><br />
-            <span style={{ fontFamily: 'var(--font-display)', fontSize: '1.2rem', color: '#38bdf8', textShadow: '0 0 10px rgba(56,189,248,0.5)' }}>Haikal</span>
+            <span style={{ fontFamily: 'var(--font-display)', fontSize: '1.2rem', color: '#38bdf8', textShadow: '0 0 10px rgba(56,189,248,0.5)' }}>putri 💗</span>
           </div>
         )}
       </div>
@@ -271,7 +277,7 @@ function FarewellSection({ onOpenCake }) {
           letterSpacing: '0.5px',
         }}
       >
-        💙 With all my heart 💙
+        💙 Dari Lubuk Hatiku 💙
       </p>
 
       {/* Main Title — elegant serif with italic accent */}
@@ -287,7 +293,7 @@ function FarewellSection({ onOpenCake }) {
           fontWeight: '600',
         }}
       >
-        May your life<br />
+        Semoga hidupmu<br />
         <span
           style={{
             fontStyle: 'italic',
@@ -295,10 +301,10 @@ function FarewellSection({ onOpenCake }) {
             textShadow: '0 0 20px rgba(56, 189, 248, 0.6), 0 0 40px rgba(0, 210, 255, 0.4)',
           }}
         >
-          always be filled
+          selalu dipenuhi
         </span>
         <br />
-        with flowers
+        kebahagiaan & cinta
       </h2>
 
       {/* Birthday Message Paragraph */}
@@ -313,8 +319,8 @@ function FarewellSection({ onOpenCake }) {
           fontWeight: '400',
         }}
       >
-        Happy Birthday, Lucyna Majewska ❤️<br /><br />
-        May your year ahead be filled with genuine happiness, good health, and success in everything you do. I’m truly grateful to be able to celebrate you today, even though we’re miles apart. Distance may keep us from celebrating side by side, but it could never make this day feel any less special to me
+        Selamat ulang tahun ke-25, Bebe tersayang ❤️<br /><br />
+        Semoga di usiamu yang baru ini, kamu selalu diberikan kesehatan, kebahagiaan yang tulus, dan kesuksesan dalam segala hal yang kamu impikan. Aku sangat bersyukur bisa merayakan hari bahagiamu ini, walau kita terhalang jarak. Jarak mungkin memisahkan kita hari ini, tapi tidak akan pernah mengurangi rasa cinta dan rinduku padamu.
       </p>
 
       {/* Center Flower Bucket PNG Ornament */}
@@ -349,7 +355,7 @@ function FarewellSection({ onOpenCake }) {
           marginBottom: '28px',
         }}
       >
-        — With endless love & affection 💙 —
+        — Dengan segenap cinta & kasih sayang 💙 —
       </p>
 
       {/* Happy Birthday Wish Button */}
@@ -380,7 +386,7 @@ function FarewellSection({ onOpenCake }) {
           e.currentTarget.style.boxShadow = '0 0 25px var(--neon-pink), 0 0 50px rgba(0, 210, 255, 0.3)';
         }}
       >
-        <Sparkles size={18} /> Birthday Wishes & Toast 💕
+        <Sparkles size={18} /> Doa & Harapan Ulang Tahun 💕
       </button>
     </div>
   );
@@ -422,11 +428,11 @@ function PersonalMessageCard() {
       />
 
       <p style={{ fontSize: '0.75rem', letterSpacing: '1.5px', color: '#38bdf8', fontWeight: '600', marginBottom: '6px' }}>
-        — A PERSONAL NOTE —
+        — SPESIAL NOTE —
       </p>
       
       <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.45rem', color: '#ffffff', marginBottom: '16px' }}>
-        A Heartfelt Note For You 🤍
+        Spesial Note Untuk Bebe 💗
       </h3>
 
       <div
@@ -440,16 +446,16 @@ function PersonalMessageCard() {
       >
         <p
           style={{
-            fontSize: '0.94rem',
+            fontSize: '0.96rem',
             lineHeight: '1.75',
             color: '#e0f2fe',
             fontStyle: 'italic',
-            fontWeight: '400',
+            fontWeight: '500',
             margin: 0,
             fontFamily: 'var(--font-body)',
           }}
         >
-          "I truly cherish your presence and all the thoughtful warmth you bring into my world. Your kindness, intelligence, grace, and courage have such a wonderful way of inspiring me every day. I hope my presence brings as much comfort, happiness, and warmth to your life as yours brings to mine"
+          "Tiap kali dengar suara kamu, semua rasa cape di dunia langsung hilang seketika!🎶✨"
         </p>
       </div>
     </div>
@@ -466,7 +472,7 @@ export default function MainBirthdayPage() {
   const dateRef = useRef(null);
   
   // Typewriter effect state
-  const fullRomanticText = "Take your time and scroll down gently, I've prepared a little something special for you 🤍";
+  const fullRomanticText = "Santai saja dan scroll ke bawah pelan-pelan ya, ada sesuatu yang spesial untukmu 🤍";
   const [typedText, setTypedText] = useState('');
   const [isTypingDone, setIsTypingDone] = useState(false);
 
@@ -510,63 +516,63 @@ export default function MainBirthdayPage() {
   const vinylRef = useRef(null);
 
   const playlist = [
-    { id: 1, title: 'Me Gustas Tu', artist: 'Manu Chao', duration: '3:58', src: '/Me Gustas Tu_spotdown.org.mp3' },
-    { id: 2, title: 'On Melancholy Hill', artist: 'Gorillaz', duration: '4:21', src: '/Gorillaz - On Melancholy Hill (Official Video).mp3' },
-    { id: 3, title: 'May This Be Love', artist: 'Jimi Hendrix', duration: '3:10', src: '/May This Be Love_spotdown.org.mp3' },
+    { id: 1, title: 'Just You', artist: 'Teddy Adhitya', duration: '3:45', src: '/Just You.mp3' },
+    { id: 2, title: 'Still The One', artist: 'Shania Twain', duration: '3:33', src: '/Still The One.mp3' },
+    { id: 3, title: 'Sempurna', artist: 'Andra and The Backbone', duration: '4:25', src: '/Sempurna.mp3' },
   ];
 
   // 2. Bouquet Flowers Compliment Messages State
   const [activeFlower, setActiveFlower] = useState('sakura');
   const flowerCompliments = {
     rose: {
-      name: "Rose",
+      name: "Mawar",
       icon: "🌹",
       color: "#ff69b4",
-      text: "Rose — Elegant, timeless, and unforgettable. You hold an exceptionally special place in my heart."
+      text: "Mawar — Elegan, abadi, dan tak tergantikan. Kamu selalu memiliki tempat paling istimewa di hatiku."
     },
     tulip: {
       name: "Tulip",
       icon: "🌷",
       color: "#ff85c8",
-      text: "Tulip — Pure and graceful. I appreciate your sincerity and all the quiet, wonderful ways you bring joy to those around you."
+      text: "Tulip — Tulus dan anggun. Aku selalu bersyukur atas ketulusanmu dan caramu membawa senyuman di hidupku."
     },
     sakura: {
-      name: "Cherry Blossom",
+      name: "Sakura",
       icon: "🌸",
       color: "#ff9ed8",
-      text: "Cherry Blossom — Gentle and radiant. May each step of your journey bring you boundless peace, joy, and wondrous moments."
+      text: "Sakura — Lembut dan bercahaya. Semoga setiap langkah perjalanan hidupmu selalu dipenuhi kedamaian dan kebahagiaan."
     },
     sunflower: {
-      name: "Sunflower",
+      name: "Bunga Matahari",
       icon: "🌻",
       color: "#ffb3e0",
-      text: "Sunflower — Bright and uplifting. Thank you for always being a beacon of warmth, positivity, and comfort."
+      text: "Bunga Matahari — Hangat dan ceria. Terima kasih selalu menjadi cahaya dan penyemangat di hari-hariku."
     },
     daisy: {
       name: "Daisy",
       icon: "🌼",
       color: "#ffc0eb",
-      text: "Daisy — Fresh, genuine, and delightful. May life always bless you with endless reasons to smile, even on the quietest days."
+      text: "Daisy — Manis dan tulus. Semoga hidupmu selalu dipenuhi alasan untuk tersenyum bahagia."
     }
   };
 
-  // 3. Polaroid Lightbox Modal State - Photos for Lucyna Majewska
+  // 3. Polaroid Lightbox Modal State - Photos for Bebe
   const [selectedPhoto, setSelectedPhoto] = useState(null);
   const photoGallery = [
     { 
       id: 1, 
-      title: 'Lucyna Majewska ✨', 
-      date: 'Special Celebration', 
-      location: 'Cherished Moment',
-      img: '/lucyna 1.jpeg',
+      title: 'Bebe Tersayang ✨', 
+      date: 'Momen Berharga', 
+      location: 'Selalu di Hati',
+      img: '/bebe 1.jpeg',
       rotation: '-2deg'
     },
     { 
       id: 2, 
-      title: 'Forever in my heart 🌍', 
-      date: 'Miles Apart, But Our Hearts Close 💕', 
-      location: '',
-      img: '/lucyna 2.jpeg',
+      title: 'Selalu Ada Untukmu 💕', 
+      date: 'Jarak Bukan Penghalang', 
+      location: 'Cinta Tanpa Batas',
+      img: '/bebe 2.jpeg',
       rotation: '2.5deg'
     },
   ];
@@ -575,10 +581,11 @@ export default function MainBirthdayPage() {
   const jarRef = useRef(null);
   const [selectedNote, setSelectedNote] = useState(null);
   const jarNotes = [
-    "Every conversation with you leaves a lasting warmth that brightens my entire day. Thank you for being such an amazing person. 💙",
-    "I admire your intelligence, your gentle strength, and the grace with which you carry yourself. 🤍",
-    "You make the world feel softer, kinder, and so much more beautiful just by being in it. ✨",
-    "Thank you for being someone truly unforgettable. Wishing you all the love and happiness in the world. 🌸"
+    "Setiap kali ngobrol sama kamu, rasanya semua beban langsung hilang dan hariku jadi tenang. Makasih ya udah jadi orang paling berarti buat aku. 💙",
+    "Aku kagum sama ketulusanmu, senyumanmu, dan kebaikan hatimu yang selalu bikin aku merasa berharga. 🤍",
+    "Dunia rasanya jauh lebih indah, hangat, dan berwarna sejak ada kamu di hidupku. ✨",
+    "Selamat ulang tahun ke-25 sayangku! Semoga semua impianmu tercapai. Aku selalu sayang kamu! 🌸",
+    "Tiap kali dengar suara kamu, semua rasa cape di dunia langsung hilang seketika! 🎶✨",
   ];
 
   // 5. Final Birthday Cake Modal State
@@ -914,11 +921,11 @@ export default function MainBirthdayPage() {
           }}
         >
           <span>🤍</span>
-          <span style={{ fontFamily: 'var(--font-body)', fontWeight: '500' }}>To someone truly exceptional who holds a special place in my heart.</span>
+          <span style={{ fontFamily: 'var(--font-body)', fontWeight: '500' }}>Untuk seseorang yang sangat istimewa di hatiku.</span>
           <span>🤍</span>
         </div>
 
-        {/* Title: Happy Birthday, My Dearest 🤍 Lucyna Majewska */}
+        {/* Title: Selamat Ulang Tahun, Bebe Tersayang ❤️ Ke-25 */}
         <div
           style={{
             fontFamily: 'var(--font-display)',
@@ -931,19 +938,19 @@ export default function MainBirthdayPage() {
           <div
             ref={happyRef}
             style={{
-              fontSize: '2.8rem',
+              fontSize: '2.5rem',
               fontWeight: '600',
               color: '#ffffff',
               letterSpacing: '0.5px',
               textShadow: '0 0 20px rgba(255, 255, 255, 0.6)',
             }}
           >
-            Happy Birthday,
+            Selamat Ulang Tahun,
           </div>
           <div
             ref={birthdayRef}
             style={{
-              fontSize: '3.1rem',
+              fontSize: '3rem',
               fontStyle: 'italic',
               fontWeight: '600',
               background: 'linear-gradient(135deg, #ff9ed8 0%, #ff69b4 50%, #cc1a6e 100%)',
@@ -954,7 +961,7 @@ export default function MainBirthdayPage() {
               letterSpacing: '0.5px',
             }}
           >
-            Moje Kochanie ❤️
+            Bebe Tersayang ❤️
           </div>
           <div
             ref={agaaRef}
@@ -966,7 +973,7 @@ export default function MainBirthdayPage() {
               textShadow: '0 0 20px rgba(255, 255, 255, 0.6)',
             }}
           >
-            Lucyna Majewska
+            Ke-25 🎂
           </div>
         </div>
 
@@ -1029,7 +1036,7 @@ export default function MainBirthdayPage() {
             marginBottom: '28px',
           }}
         >
-          WISHING YOU THE HAPPIEST BIRTHDAY 🤍
+          SELAMAT ULANG TAHUN KE-25 BEBE 🤍
         </div>
 
         {/* Scroll Down Bounce Arrow */}
@@ -1055,13 +1062,13 @@ export default function MainBirthdayPage() {
         }}
       >
         <p style={{ fontSize: '0.75rem', letterSpacing: '1.5px', color: '#ff69b4', fontWeight: '600', marginBottom: '4px' }}>
-          — A SPECIAL BOUQUET —
+          — BUKET BUNGA SPESIAL —
         </p>
         <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.5rem', marginBottom: '4px' }}>
-          A Digital Bouquet
+          Buket Bunga Digital
         </h3>
         <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginBottom: '14px' }}>
-          A heartfelt gift created just for you 🤍
+          Hadiah penuh cinta yang dibuat khusus untukmu 🤍
         </p>
 
         {/* Bouquet PNG Banner */}
@@ -1283,13 +1290,13 @@ export default function MainBirthdayPage() {
       {/* SECTION 4: POLAROID PHOTO GALLERY */}
       <div style={{ textAlign: 'center', marginBottom: '36px' }}>
         <p style={{ fontSize: '0.75rem', letterSpacing: '1.5px', color: '#38bdf8', fontWeight: '600', marginBottom: '4px' }}>
-          — SPECIAL MEMORIES —
+          — KENANGAN MANIS —
         </p>
         <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.5rem', marginBottom: '4px' }}>
-          Photo Memories
+          Galeri Foto Kenangan 📸
         </h3>
         <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginBottom: '20px' }}>
-          Click any photo to view in detail 📸
+          Ketuk foto untuk melihat lebih jelas ✨
         </p>
 
         {/* Stacked Tilted Polaroid Cards */}
@@ -1351,10 +1358,10 @@ export default function MainBirthdayPage() {
         }}
       >
         <p style={{ fontSize: '0.75rem', letterSpacing: '1.5px', color: '#38bdf8', fontWeight: '600', marginBottom: '4px' }}>
-          — SPECIAL SOUNDTRACK —
+          — SOUNDTRACK KITA —
         </p>
         <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.45rem', marginBottom: '16px' }}>
-          Our Playlist
+          Playlist Spesial 🎵
         </h3>
 
         {/* Spinning Vinyl Disc */}
@@ -1458,7 +1465,7 @@ export default function MainBirthdayPage() {
         {/* 3 Interactive Playlist Song List Cards */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', textAlign: 'left' }}>
           <p style={{ fontSize: '0.78rem', color: '#38bdf8', fontWeight: '600', marginBottom: '2px', textAlign: 'center' }}>
-            📜 Soundtrack Selection:
+            📜 Pilihan Lagu:
           </p>
           {playlist.map((song, index) => {
             const isSelected = index === currentTrack;
@@ -1547,13 +1554,13 @@ export default function MainBirthdayPage() {
           }}
         />
         <p style={{ fontSize: '0.75rem', letterSpacing: '1.5px', color: '#38bdf8', fontWeight: '600', marginBottom: '4px' }}>
-          — FROM MY HEART TO YOURS —
+          — DARI HATI KE HATI —
         </p>
         <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.35rem', marginBottom: '4px' }}>
-          Reasons Why You Are Special
+          Alasan Kenapa Kamu Begitu Spesial
         </h3>
         <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginBottom: '16px' }}>
-          Shake the jar to pick a note 📜
+          Kocok toplesnya untuk mengambil pesan 📜
         </p>
 
         <div ref={jarRef} style={{ fontSize: '3.5rem', marginBottom: '12px', cursor: 'pointer' }} onClick={handleShakeJar}>
@@ -1574,7 +1581,7 @@ export default function MainBirthdayPage() {
             boxShadow: '0 0 15px rgba(0,210,255,0.4)',
           }}
         >
-          Shake the Jar ✨
+          Kocok Toples ✨
         </button>
 
         {selectedNote && (
@@ -1614,7 +1621,7 @@ export default function MainBirthdayPage() {
                 zIndex: 5,
               }}
             >
-              📜 A SPECIAL NOTE FOR LUCYNA MAJEWSKA 💙
+              📜 PESAN SPESIAL UNTUK BEBE 💗
             </div>
 
             <p style={{ marginTop: '4px', fontFamily: 'var(--font-body)' }}>
@@ -1746,10 +1753,10 @@ export default function MainBirthdayPage() {
           >
             <div style={{ fontSize: '3rem', marginBottom: '10px' }}>💖</div>
             <h3 className="neon-text" style={{ fontFamily: 'var(--font-display)', fontSize: '1.5rem', marginBottom: '8px' }}>
-              Happy Birthday, Lucyna!
+              Selamat Ulang Tahun Ke-25, Bebe! 🎂
             </h3>
             <p style={{ fontSize: '0.9rem', color: '#e0f2fe', marginBottom: '20px' }}>
-              Wishing the wonderful Lucyna Majewska a magical year ahead 💗
+              Semoga hari-harimu selalu dipenuhi kebahagiaan, kesehatan, dan cinta yang tiada habisnya 💗
             </p>
 
             <button
@@ -1763,7 +1770,7 @@ export default function MainBirthdayPage() {
                 cursor: 'pointer',
               }}
             >
-              Close ×
+              Tutup ×
             </button>
           </div>
         </div>
