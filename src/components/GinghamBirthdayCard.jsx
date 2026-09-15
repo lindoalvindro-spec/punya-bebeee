@@ -331,13 +331,14 @@ export default function GinghamBirthdayCard() {
                 }}
               >
                 <img
-                  src="/bebe 1.jpeg"
+                  src="/bebe 2.jpeg"
                   alt="Bebe"
                   style={{
                     width: '100%',
                     height: '100%',
                     borderRadius: '50%',
                     objectFit: 'cover',
+                    objectPosition: 'center top',
                     display: 'block',
                   }}
                 />

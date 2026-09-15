@@ -565,6 +565,7 @@ export default function MainBirthdayPage() {
       date: 'Momen Berharga', 
       location: 'Selalu di Hati',
       img: '/bebe 1.jpeg',
+      objectPosition: 'center center',
       rotation: '-2deg'
     },
     { 
@@ -573,6 +574,7 @@ export default function MainBirthdayPage() {
       date: 'Jarak Bukan Penghalang', 
       location: 'Cinta Tanpa Batas',
       img: '/bebe 2.jpeg',
+      objectPosition: 'center top',
       rotation: '2.5deg'
     },
   ];
@@ -1330,8 +1332,9 @@ export default function MainBirthdayPage() {
                 alt={item.title}
                 style={{
                   width: '100%',
-                  height: '210px',
+                  height: '240px',
                   objectFit: 'cover',
+                  objectPosition: item.objectPosition || 'center top',
                   borderRadius: '4px',
                   marginBottom: '10px',
                 }}
@@ -1691,8 +1694,9 @@ export default function MainBirthdayPage() {
               alt={selectedPhoto.title}
               style={{
                 width: '100%',
-                maxHeight: '360px',
+                maxHeight: '380px',
                 objectFit: 'cover',
+                objectPosition: selectedPhoto.objectPosition || 'center top',
                 borderRadius: '10px',
                 marginBottom: '14px',
               }}
