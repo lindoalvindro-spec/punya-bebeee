@@ -564,8 +564,8 @@ export default function MainBirthdayPage() {
       title: 'Bebe Tersayang ✨', 
       date: 'Momen Berharga', 
       location: 'Selalu di Hati',
-      img: '/bebe 1.jpeg',
-      objectPosition: 'center center',
+      img: '/bebe 2.jpeg',
+      objectPosition: 'center top',
       rotation: '-2deg'
     },
     { 
@@ -573,8 +573,8 @@ export default function MainBirthdayPage() {
       title: 'Selalu Ada Untukmu 💕', 
       date: 'Jarak Bukan Penghalang', 
       location: 'Cinta Tanpa Batas',
-      img: '/bebe 2.jpeg',
-      objectPosition: 'center top',
+      img: '/bebe 1.jpeg',
+      objectPosition: 'center center',
       rotation: '2.5deg'
     },
   ];
